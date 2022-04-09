@@ -7,12 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="legou-core" />
+        <module name="nvoc-item-service" />
         <module name="legou-common" />
+        <module name="nvoc-item-instance" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="legou-common" target="1.8" />
       <module name="legou-core" target="1.8" />
+      <module name="nvoc-item" target="1.8" />
+      <module name="nvoc-item-instance" target="1.8" />
+      <module name="nvoc-item-service" target="1.8" />
+      <module name="nvoc_item" target="1.8" />
+      <module name="nvoc_item-instance" target="1.8" />
       <module name="nvoc_parent" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -20,6 +27,11 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="legou-common" options="-parameters" />
       <module name="legou-core" options="-parameters" />
+      <module name="nvoc-item" options="-parameters" />
+      <module name="nvoc-item-instance" options="-parameters" />
+      <module name="nvoc-item-service" options="-parameters" />
+      <module name="nvoc_item" options="-parameters" />
+      <module name="nvoc_item-instance" options="-parameters" />
     </option>
   </component>
 </project>
