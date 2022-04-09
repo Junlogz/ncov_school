@@ -1,0 +1,3 @@
+# Project exclude paths
+/nvoc_parent/legou-common/target/
+/nvoc_parent/legou-core/target/
