@@ -1,7 +1,6 @@
-package com.nvoc;
+package com.vo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableName;
 import com.zjl.legou.core.po.BaseEntity;
 
 import java.util.Date;
@@ -11,8 +10,8 @@ import java.util.Date;
  * @Description: *
  * Date: 2022/4/9 10:54
  */
-@TableName("health_card")
-public class HealthCard extends BaseEntity {
+
+public class HealthCardVo extends BaseEntity {
 
     /** 日期 */
     private Date date ;
@@ -28,15 +27,15 @@ public class HealthCard extends BaseEntity {
     /** 电话 */
     private String phone ;
     /** 健康码 */
-    private int healthCodeId ;
+    private String healthCode ;
     /** 体温 */
-    private int bodyTemperatureId ;
+    private String bodyTemperature ;
     /** 温度 */
     private double temperature ;
     /** 身体状况 */
-    private int physicalConditionId ;
+    private String physicalCondition ;
     /** 接种疫苗 */
-    private int vaccinationId ;
+    private String vaccination ;
     /** 创建时间 */
     private Date createTime ;
     /** 修改时间 */
