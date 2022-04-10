@@ -2,8 +2,11 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/nvoc_parent/legou-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nvoc_parent/legou-common/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nvoc_parent/legou-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nvoc_parent/legou-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-instance/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-instance/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-service/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>

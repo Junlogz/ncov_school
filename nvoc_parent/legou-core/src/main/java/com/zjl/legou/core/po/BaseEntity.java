@@ -17,7 +17,7 @@ public abstract class BaseEntity implements Serializable {
 	/**
 	 * 实体编号（唯一标识）
 	 */
-	@TableId(value = "id_", type = IdType.AUTO)
+	@TableId(value = "id", type = IdType.AUTO)
 	protected Long id;
 
 }
