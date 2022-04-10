@@ -1,6 +1,6 @@
 package com.item.controller;
 
-import com.item.GoOutApply;
+import com.item.po.GoOutApply;
 import com.item.service.GoOutApplyService;
 import com.zjl.legou.core.controller.BaseController;
 import org.springframework.web.bind.annotation.CrossOrigin;

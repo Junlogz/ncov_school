@@ -1,6 +1,6 @@
 package com.item.service.impl;
 
-import com.item.HealthCard;
+import com.item.po.HealthCard;
 import com.item.service.HealthCardService;
 import com.zjl.legou.core.service.impl.CrudServiceImpl;
 import org.springframework.stereotype.Service;

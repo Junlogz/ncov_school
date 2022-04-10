@@ -1,11 +1,9 @@
 package com.item.service.impl;
 
-import com.item.Admin;
+import com.item.po.Admin;
 import com.item.service.AdminService;
 import com.zjl.legou.core.service.impl.CrudServiceImpl;
 import org.springframework.stereotype.Service;
-
-import java.io.Serializable;
 
 /**
  * @author: JunLog

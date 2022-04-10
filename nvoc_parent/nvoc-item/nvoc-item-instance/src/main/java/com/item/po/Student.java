@@ -1,7 +1,8 @@
-package com.item;
+package com.item.po;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.zjl.legou.core.po.BaseEntity;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -12,6 +13,7 @@ import java.util.Date;
  */
 
 @TableName("student")
+@Data
 public class Student extends BaseEntity {
     /** 学号 */
     private String student_number ;

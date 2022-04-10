@@ -1,6 +1,6 @@
 package com.item.dao;
 
-import com.item.GoOutApply;
+import com.item.po.GoOutApply;
 import com.zjl.legou.core.dao.ICrudDao;
 
 /**

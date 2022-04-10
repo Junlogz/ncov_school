@@ -1,9 +1,7 @@
 package com.item.service;
 
-import com.item.Admin;
+import com.item.po.Admin;
 import com.zjl.legou.core.service.ICrudService;
-
-import java.io.Serializable;
 
 /**
  * @author: JunLog

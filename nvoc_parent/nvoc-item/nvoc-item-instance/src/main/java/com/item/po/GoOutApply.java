@@ -1,12 +1,14 @@
-package com.item;
+package com.item.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.zjl.legou.core.po.BaseEntity;
+import lombok.Data;
 
 import java.util.Date;
 
 @TableName("go_out_apply")
+@Data
 public class GoOutApply extends BaseEntity {
     /** 姓名 */
     private String name ;

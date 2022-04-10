@@ -1,11 +1,13 @@
-package com.item;
+package com.item.po;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.zjl.legou.core.po.BaseEntity;
+import lombok.Data;
 
 import java.util.Date;
 
 @TableName("teacher")
+@Data
 public class Teacher extends BaseEntity {
 
     /** 教师编号 */

@@ -31,23 +31,7 @@ public abstract class BaseController<S extends ICrudService<T>, T extends BaseEn
     }
 
     /**
-     * 加载
-     *
-     * @param id
-     * @return
-     * @throws Exception
-     */
-    @ApiOperation(value="加载", notes="根据ID加载")
-    @GetMapping("/edit/{id}")
-    public T edit(@PathVariable Long id) throws Exception {
-        T entity = service.getById(id);
-        afterEdit(entity);
-        System.out.println(entity);
-        return entity;
-    }
-
-    /**
-     * 根据id查询
+     * 查询
      *
      * @param id
      * @return
@@ -55,9 +39,13 @@ public abstract class BaseController<S extends ICrudService<T>, T extends BaseEn
      */
     @ApiOperation(value="查询", notes="根据ID查询")
     @GetMapping("/select/{id}")
-    public T selectById(@PathVariable Long id) throws Exception{
-        return service.getBaseMapper().selectById(id);
+    public T edit(@PathVariable Long id) throws Exception {
+        T entity = service.getById(id);
+        afterEdit(entity);
+        System.out.println(entity);
+        return entity;
     }
+
 
     /**
      * 分页查询

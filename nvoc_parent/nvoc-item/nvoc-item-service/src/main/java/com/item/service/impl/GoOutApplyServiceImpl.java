@@ -1,6 +1,6 @@
 package com.item.service.impl;
 
-import com.item.GoOutApply;
+import com.item.po.GoOutApply;
 import com.item.service.GoOutApplyService;
 import com.zjl.legou.core.service.impl.CrudServiceImpl;
 import org.springframework.stereotype.Service;

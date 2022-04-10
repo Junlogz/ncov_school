@@ -1,6 +1,6 @@
 package com.item.service;
 
-import com.item.GoOutApply;
+import com.item.po.GoOutApply;
 import com.zjl.legou.core.service.ICrudService;
 
 /**

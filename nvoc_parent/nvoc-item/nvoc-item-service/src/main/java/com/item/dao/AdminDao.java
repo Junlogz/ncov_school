@@ -1,9 +1,7 @@
 package com.item.dao;
 
-import com.item.Admin;
+import com.item.po.Admin;
 import com.zjl.legou.core.dao.ICrudDao;
-
-import java.io.Serializable;
 
 /**
  * @author: JunLog

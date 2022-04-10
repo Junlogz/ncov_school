@@ -1,6 +1,6 @@
 package com.item.controller;
 
-import com.item.Teacher;
+import com.item.po.Teacher;
 import com.item.service.TeacherService;
 import com.zjl.legou.core.controller.BaseController;
 import org.springframework.web.bind.annotation.CrossOrigin;

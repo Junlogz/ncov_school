@@ -21,7 +21,23 @@ spring:
       minimum-idle: 10
   main:
     allow-bean-definition-overriding: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+mybatis-plus:
+  mapper-locations: classpath*:mybatis/*/*.xml
+  type-aliases-package: com.item.po
+  configuration:
+    # 下划线驼峰转换
+    map-underscore-to-camel-case: true
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
 logging:
+  #file: demo.log
+  pattern:
+    console: "%d - %msg%n"
   level:
+    org.springframework.web: debug
     com.item: debug
 

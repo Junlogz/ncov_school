@@ -1,6 +1,6 @@
 package com.item.service.impl;
 
-import com.item.Teacher;
+import com.item.po.Teacher;
 import com.item.service.TeacherService;
 import com.zjl.legou.core.service.impl.CrudServiceImpl;
 import org.springframework.stereotype.Service;

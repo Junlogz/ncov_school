@@ -1,6 +1,6 @@
 package com.item.service;
 
-import com.item.HealthCard;
+import com.item.po.HealthCard;
 import com.zjl.legou.core.service.ICrudService;
 
 /**

@@ -1,4 +1,4 @@
-package com.vo;
+package com.item.vo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.zjl.legou.core.po.BaseEntity;

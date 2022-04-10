@@ -1,6 +1,6 @@
 package com.item.service;
 
-import com.item.Student;
+import com.item.po.Student;
 import com.zjl.legou.core.service.ICrudService;
 
 /**

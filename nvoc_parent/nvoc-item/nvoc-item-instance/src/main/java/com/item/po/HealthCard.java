@@ -1,8 +1,9 @@
-package com.item;
+package com.item.po;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.zjl.legou.core.po.BaseEntity;
+import lombok.Data;
 
 import java.util.Date;
 
@@ -12,6 +13,7 @@ import java.util.Date;
  * Date: 2022/4/9 10:54
  */
 @TableName("health_card")
+@Data
 public class HealthCard extends BaseEntity {
 
     /** 日期 */

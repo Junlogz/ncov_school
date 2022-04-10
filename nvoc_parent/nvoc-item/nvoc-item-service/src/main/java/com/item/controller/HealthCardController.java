@@ -1,6 +1,6 @@
 package com.item.controller;
 
-import com.item.HealthCard;
+import com.item.po.HealthCard;
 import com.item.service.HealthCardService;
 import com.zjl.legou.core.controller.BaseController;
 import org.springframework.web.bind.annotation.CrossOrigin;

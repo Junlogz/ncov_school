@@ -1,6 +1,6 @@
 package com.item.dao;
 
-import com.item.Student;
+import com.item.po.Student;
 import com.zjl.legou.core.dao.ICrudDao;
 
 /**

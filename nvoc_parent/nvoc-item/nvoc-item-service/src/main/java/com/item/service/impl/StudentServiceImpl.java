@@ -1,6 +1,6 @@
 package com.item.service.impl;
 
-import com.item.Student;
+import com.item.po.Student;
 import com.item.service.StudentService;
 import com.zjl.legou.core.service.impl.CrudServiceImpl;
 import org.springframework.stereotype.Service;
