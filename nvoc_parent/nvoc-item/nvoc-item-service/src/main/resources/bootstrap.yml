@@ -1,0 +1,27 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: nvoc-item-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 124.222.211.41:8848  # nacos地址
+      config:
+        server-addr: 124.222.211.41:8848  # nacos地址
+        file-extension: yaml
+  datasource:
+    url: jdbc:mysql://124.222.211.41:3301/nvoc_school?characterEncoding=utf8&characterSetResults=utf8&autoReconnect=true&failOverReadOnly=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      idle-timeout: 60000
+      maximum-pool-size: 30
+      minimum-idle: 10
+  main:
+    allow-bean-definition-overriding: true
+logging:
+  level:
+    com.item: debug
+
