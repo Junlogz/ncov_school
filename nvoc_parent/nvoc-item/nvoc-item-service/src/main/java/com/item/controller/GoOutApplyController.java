@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Date: 2022/4/9 14:07
  */
 @RestController
-@RequestMapping(value = "/goOutApp")
+@RequestMapping(value = "/goOutApply")
 @CrossOrigin
-public class GoOurApplyController extends BaseController<GoOutApplyService, GoOutApply> {
+public class GoOutApplyController extends BaseController<GoOutApplyService, GoOutApply> {
 }

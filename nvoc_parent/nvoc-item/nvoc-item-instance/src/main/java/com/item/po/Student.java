@@ -16,11 +16,9 @@ import java.util.Date;
 @Data
 public class Student extends BaseEntity {
     /** 学号 */
-    private String student_number ;
+    private String studentNumber ;
     /** 密码 */
     private String password ;
-    /** 盐值 */
-    private String salt ;
     /** 性别 */
     private int sex ;
     /** 姓名 */
@@ -32,7 +30,7 @@ public class Student extends BaseEntity {
     /** 修改时间 */
     private Date updateTime ;
     /** 逻辑删除 */
-    private int is_delete ;
+    private int isDelete ;
     /** 启用状态 */
     private int status ;
 }

@@ -19,7 +19,7 @@ public class Admin extends BaseEntity {
     /** 修改时间 */
     private Date updateTime ;
     /** 逻辑删除 */
-    private int is_delete ;
+    private int isDelete ;
     /** 状态 */
     private int status ;
 }

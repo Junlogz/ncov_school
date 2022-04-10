@@ -11,11 +11,9 @@ import java.util.Date;
 public class Teacher extends BaseEntity {
 
     /** 教师编号 */
-    private String teacher_number ;
+    private String teacherNumber ;
     /** 密码 */
     private String password ;
-    /** 盐值 */
-    private String salt ;
     /** 性别 */
     private int sex ;
     /** 电话 */
@@ -27,7 +25,7 @@ public class Teacher extends BaseEntity {
     /** 修改时间 */
     private Date updateTime ;
     /** 逻辑删除 */
-    private int is_delete ;
+    private int isDelete ;
     /** 启用状态 */
     private int status ;
 }

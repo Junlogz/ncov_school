@@ -44,5 +44,5 @@ public class HealthCard extends BaseEntity {
     /** 修改时间 */
     private Date updateTime ;
     /** 逻辑删除 */
-    private int is_delete ;
+    private int isDelete ;
 }
