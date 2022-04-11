@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/nvoc_parent/legou-common/legou-common.iml" filepath="$PROJECT_DIR$/nvoc_parent/legou-common/legou-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/nvoc_parent/legou-core/legou-core.iml" filepath="$PROJECT_DIR$/nvoc_parent/legou-core/legou-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nvoc_parent/nvoc-gateway/nvoc-gateway.iml" filepath="$PROJECT_DIR$/nvoc_parent/nvoc-gateway/nvoc-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item.iml" filepath="$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-instance/nvoc-item-instance.iml" filepath="$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-instance/nvoc-item-instance.iml" />
       <module fileurl="file://$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-service/nvoc-item-service.iml" filepath="$PROJECT_DIR$/nvoc_parent/nvoc-item/nvoc-item-service/nvoc-item-service.iml" />

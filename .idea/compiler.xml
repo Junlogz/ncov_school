@@ -11,11 +11,13 @@
         <module name="nvoc-item-service" />
         <module name="legou-common" />
         <module name="nvoc-item-instance" />
+        <module name="nvoc-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="legou-common" target="1.8" />
       <module name="legou-core" target="1.8" />
+      <module name="nvoc-gateway" target="1.8" />
       <module name="nvoc-item" target="1.8" />
       <module name="nvoc-item-instance" target="1.8" />
       <module name="nvoc-item-service" target="1.8" />
@@ -28,6 +30,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="legou-common" options="-parameters" />
       <module name="legou-core" options="-parameters" />
+      <module name="nvoc-gateway" options="-parameters" />
       <module name="nvoc-item" options="-parameters" />
       <module name="nvoc-item-instance" options="-parameters" />
       <module name="nvoc-item-service" options="-parameters" />

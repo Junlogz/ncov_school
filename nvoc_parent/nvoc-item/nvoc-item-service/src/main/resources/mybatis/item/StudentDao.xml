@@ -8,8 +8,8 @@
         from
         student
         <where>
-            <if test="student_number != null and student_number != ''">
-                and student_number like '%${student_number}%'
+            <if test="studentNumber != null and studentNumber != ''">
+                and student_number like '%${studentNumber}%'
             </if>
         </where>
     </select>

@@ -8,8 +8,8 @@
         from
         teacher
         <where>
-            <if test="teacher_number != null and teacher_number != ''">
-                and teacher_number like '%${teacher_number}%'
+            <if test="teacherNumber != null and teacherNumber != ''">
+                and teacher_number like '%${teacherNumber}%'
             </if>
         </where>
     </select>

@@ -13,6 +13,7 @@
         <module>legou-core</module>
         <module>legou-common</module>
         <module>nvoc-item</module>
+        <module>nvoc-gateway</module>
     </modules>
 
     <parent>

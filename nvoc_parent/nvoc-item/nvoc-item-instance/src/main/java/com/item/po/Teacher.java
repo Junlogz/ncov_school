@@ -1,6 +1,9 @@
 package com.item.po;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 import com.zjl.legou.core.po.BaseEntity;
 import lombok.Data;
 

@@ -3,6 +3,7 @@ package com.item.controller;
 import com.item.po.GoOutApply;
 import com.item.service.GoOutApplyService;
 import com.zjl.legou.core.controller.BaseController;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,5 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(value = "/goOutApply")
 @CrossOrigin
+@RefreshScope
 public class GoOutApplyController extends BaseController<GoOutApplyService, GoOutApply> {
 }

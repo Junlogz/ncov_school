@@ -1,0 +1,60 @@
+spring:
+  application:
+    name: ncov-gateway
+  profiles:
+    active: dev
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origin-patterns: "*" # spring boot2.4配置
+            allowed-headers: "*"
+            allow-credentials: true
+            allowed-methods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTION
+    sentinel:
+      #取消控制台懒加载 
+      eager: true
+      transport:
+        dashboard: 192.168.119.1:8080
+      datasource:
+        # 限流规则
+        flow:
+          nacos:
+            server-addr: 124.222.211.41:8848  # nacos地址
+            data-id: ${spring.application.name}-flow.json
+            namespace: 0cecd0c1-d9bd-4eff-800d-9dfcf51f7ed6
+            group-id: NCOV_GROUP
+            rule-type: flow
+            data-type: json
+        # 降级规则
+        datasource:
+          flow:
+            nacos:
+              server-addr: 124.222.211.41:8848
+              data-id: ${spring.application.name}-degrade.json
+              group-id: NCOV_GROUP
+              rule-type: degrade
+              data-type: json
+    nacos:
+      discovery:
+        server-addr: 124.222.211.41:8848
+      config:
+        server-addr: 124.222.211.41:8848
+        file-extension: yaml
+        namespace: 0cecd0c1-d9bd-4eff-800d-9dfcf51f7ed6
+        group: NCOV_GROUP
+  main:
+    allow-bean-definition-overriding: true
+
+nacos:
+  gateway:
+    route:
+      config:
+        data-id: gateway-rule.json
+        group: NCOV_GROUP

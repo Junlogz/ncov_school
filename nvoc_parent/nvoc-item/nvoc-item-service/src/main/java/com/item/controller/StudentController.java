@@ -5,6 +5,7 @@ import com.item.service.StudentService;
 import com.zjl.legou.core.controller.BaseController;
 import com.zjl.legou.core.po.ResponseBean;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.List;
 @RestController
 @RequestMapping(value = "/student")
 @CrossOrigin
+@RefreshScope
 public class StudentController extends BaseController<StudentService, Student> {
 
     @ApiOperation(value="学生查询根据isDelete", notes = "学生查询根据isDelete")
